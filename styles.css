@@ -1,52 +1,87 @@
-/* Only Edit the ones with a comment! */
+/* Students, only edit the selectors with a comment! */
 
 body{
     font-family: 'Geologica', sans-serif;
-    background-color: #FCD000;
+    background-color: white;
     margin: 0%;
 }
 
 #super-mario{
     height: 150px;
     cursor: pointer;
+    width: 247px;
+    height: 113px;
+    padding-left: 40px;
+    padding-right: 190px;
+    padding-bottom: 21px;
 }
 
 .header{
     padding-top: 10px;
-    /* Your Code Goes Here */
+    background-color: #FCD000;
+    /* your code goes here */
+}
+
+#header-image{
+    width: 100%;
+    height: 350px;
+}
+
+#clouds{
+    position: absolute;
+    width: 100%;
+    padding-top: 230px;
 }
 
 nav{
     padding-top: 20px;
-    padding-bottom: 10px;
-    /* Your Code Goes Here */
+    padding-bottom: 20px;
+     /* your code goes here */
 }
 
 button{
     font-family: 'Geologica', sans-serif;
+    font-weight: 600;
     border-radius: 10px;
-    background-color: white;
-    height: 30px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    width: 200px;
+    height: 77px;
+    font-size: 24px;
 }
 
-#home-button:hover{
-    background-color: #009CDA;
+#section-1{
+    padding-top: 50px;
+}
+
+#characters-button{
+    background-color:#009CDA;
     color: white;
+    cursor: pointer;
 }
 
 #characters-button:hover{
-    background-color: #FCD000;
+    background-color:#FCD000;
+}
+
+#history-button{
+    background-color: #42B132;
     color: white;
+    cursor: pointer;
 }
 
 #history-button:hover{
-    background-color: #42B132;
+    background-color:#FCD000;
+}
+
+#buy-button{
+    background-color: #E71E07;
     color: white;
+    cursor: pointer;
 }
 
 #buy-button:hover{
-    background-color: #E71E07;
-    color: white;
+    background-color:#FCD000;
 }
 
 .space{
@@ -54,8 +89,11 @@ button{
 }
 
 .nav-header{
-    padding-left: 30px;
-    background-color: white;
+    padding-left: 143px;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    
 }
 
 .icons{
@@ -66,20 +104,21 @@ button{
 .characters{
     padding-top: 40px;
     padding-bottom: 40px;
-    /* Your Code Goes Here */
+    /* your code goes here */
 }
 
 .individual-character{
-    border-radius: 20px;
     background-color: white;
+    border-radius: 20px;
     width: 200px;
     height: 200px;
-    /* Your Code Goes Here */
+    padding-top: 10px;
+    /* your code goes here */
 }
 
 .individual-character:hover{
     background-color: #009CDA;
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: larger;
 }
 
@@ -89,18 +128,24 @@ button{
 }
 
 #game-boy{
-    padding-left: 20px;
+    padding-left: 143px;
     padding-right: 20px;
+    padding-bottom: 50px;
 }
 
 .tickets{
     padding-left: 40px;
     padding-bottom: 20px;
-    /* Your Code Goes Here */
+    /* your code goes here */
 }
 
 #poster{
     padding-right: 80px;
+    padding-left: 100px;
+}
+
+p{
+    padding-right: 50px;
 }
 
 .trailer{
