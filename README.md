@@ -1,6 +1,6 @@
 # super-mario-flexbox
 
-Welcome to the Flex-Box Practice website for the Web Developer Camp at iCode Cypress! This website is designed to help kids registered for the camp practice their flex-box skills using HTML and CSS.
+Welcome to the Flex-Box Practice website for the Web Developer Camp at iCode Cypress! This website is designed to help kids registered for the camp practice their flex-box skills using CSS.
 
 <h1> Description </h1>
 
