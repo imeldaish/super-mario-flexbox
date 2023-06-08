@@ -2,7 +2,6 @@
 
 Welcome to the Flex-Box Practice website for the Web Developer Camp at iCode Cypress! This website is designed to help kids registered for the camp practice their flex-box skills using HTML and CSS.
 
-Description
 The Flex-Box Practice website provides students with a "broken" version of a website that needs to be fixed. The website contains HTML and CSS files. Students will be given a CSS file with some of the flex-box elements removed. Their task is to replace the comments in the CSS file with their own flex-box CSS properties, such as flex-direction and justify-content, to orient specific elements and make their website look like the finished version.
 
 The project includes two main files:
@@ -22,14 +21,12 @@ Replace the comments with appropriate flex-box CSS properties to fix the broken 
 Save the styles.css file.
 Open the index.html file in a web browser to see the updated website.
 
-Resources
 If you need assistance with flex-box properties or HTML/CSS syntax, refer to the following resources:
 
 MDN Web Docs: Flexbox
 W3Schools: CSS Flexbox
 Feel free to explore and experiment with the code to enhance your understanding of flex-box and its capabilities.
 
-Contributing
 This project is meant for educational purposes within the Web Developer Camp at iCode Cypress. As such, external contributions are not accepted at this time.
 
 If you have any questions or issues related to the Flex-Box Practice website, please reach out to the camp instructor or the iCode support team.
