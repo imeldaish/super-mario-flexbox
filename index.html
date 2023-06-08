@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica&family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Super Mario Flexbox</title>
+    <script>
+        function playSound() {
+          var audio = new Audio('mario-theme.mp3');
+          audio.play();
+        }
+    </script>
+</head>
+<body>
+    
+    <!-- 1st Flexbox Challenge! -->
+    <div class="header">
+        <img onclick="playSound()" id="super-mario" src="/images/supermario.png" alt="">
+    </div>
+    
+    <!-- 2nd Flexbox Challenge! -->
+    <nav>
+        <a href="#section-1"><button id="characters-button">Characters</button></a>
+        <div class="space"></div>
+        <a href="#section-2"><button id="history-button">History</button></a>
+        <div class="space"></div>
+        <a href="#section-3"><button id="buy-button">Tickets</button></a>
+    </nav>
+
+    <div id="section-1" class="nav-header">
+        <h1>Characters</h1>
+    </div>
+
+    <!-- 3rd Flexbox Challenge! -->
+    <div class="characters">
+        <!-- 4th Flexbox Challenge! -->
+        <div class="individual-character">
+            <a href="https://mario.fandom.com/wiki/Mario"><img class="icons" src="/images/mario.png" alt=""></a>
+            <h3>Mario</h3>
+        </div>
+        <div class="space"></div>
+        <!-- 4th Flexbox Challenge! -->
+        <div class="individual-character">
+            <a href="https://mario.fandom.com/wiki/Luigi"><img class="icons" src="/images/luigi.png" alt=""></a>
+            <h3>Luigi</h3>
+        </div>
+        <div class="space"></div>
+        <!-- 4th Flexbox Challenge! -->
+        <div class="individual-character">
+            <a href="https://mario.fandom.com/wiki/Princess_Peach"><img class="icons" src="/images/peach.webp" alt=""></a>
+            <h3>Princess Peach</h3>
+        </div>
+        <div class="space"></div>
+        <!-- 4th Flexbox Challenge! -->
+        <div class="individual-character">
+            <a href="https://mario.fandom.com/wiki/Toad_(character)"><img class="icons" src="/images/toad.png" alt=""></a>
+            <h3>Toad</h3>
+        </div>
+        <div class="space"></div>
+        <!-- 4th Flexbox Challenge! -->
+        <div class="individual-character">
+            <a href="https://mario.fandom.com/wiki/Yoshi_(character)"><img class="icons" src="/images/yoshi.webp" alt=""></a>
+            <h3>Yoshi</h3>
+        </div>
+        <div class="space"></div>
+    </div>
+
+    <div id="section-2" class="nav-header">
+        <h1>History</h1>
+    </div>
+
+    <div class="history">
+        <img id="game-boy" src="/images/gameboy.webp" alt="">
+        <p>
+            Super Mario Bros. Deluxe is a platform game released on the Game Boy Color in 1999 as a remake of the 1985 NES game Super Mario Bros., also including its 1986 Family Computer Disk System sequel, Super Mario Bros.: The Lost Levels, as a hidden reward. It was released fourteen years after the original Super Mario Bros. The game was never released in Japan for the normal Game Boy Color Game Pak but rather the Nintendo Power cartridge. This game was initially released for the 3DS's Virtual Console in Japan, Europe, and Australia in 2014, as part of a special offer, and is now available to download for everyone in Europe, Australia, and North America with an added cost.
+            The above text is from the Super Mario Wiki and is available under a Creative Commons license. Attribution must be provided through a list of authors or a link back to the original article. Source: <a href="https://www.mariowiki.com/Main_Page">https://www.mariowiki.com/Main_Page</a>
+        </p>
+    </div>
+
+    <div id="section-3" class="nav-header">
+        <h1>Buy Tickets Now</h1>
+    </div>
+
+    <!-- 5th Flexbox Challenge! -->
+    <div class="tickets">
+        <img id="poster" src="/images/movie-poster.webp" alt="">
+        <div class="trailer">
+            <p>The super mario movie is currently playing in theatres. Watch the trailer below for more!</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TnGl01FkMMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br>
+            <a href="https://www.cinemark.com/movies/the-super-mario-bros-movie"><button id="buy-button">Get Tickets</button></a>
+        </div>
+    </div>
+
+</body>
+</html>

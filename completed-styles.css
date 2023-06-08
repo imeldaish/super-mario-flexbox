@@ -1,0 +1,115 @@
+body{
+    font-family: 'Geologica', sans-serif;
+    background-color: #FCD000;
+    margin: 0%;
+}
+
+#super-mario{
+    height: 150px;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+button{
+    font-family: 'Geologica', sans-serif;
+    border-radius: 10px;
+    background-color: white;
+    height: 30px;
+}
+
+#home-button:hover{
+    background-color: #009CDA;
+    color: white;
+}
+
+#characters-button:hover{
+    background-color: #FCD000;
+    color: white;
+}
+
+#history-button:hover{
+    background-color: #42B132;
+    color: white;
+}
+
+#buy-button:hover{
+    background-color: #E71E07;
+    color: white;
+}
+
+.space{
+    width: 10px;
+}
+
+.nav-header{
+    padding-left: 30px;
+    background-color: white;
+}
+
+.icons{
+    width: 100px;
+    height: 120px;
+}
+
+.characters{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.individual-character{
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.individual-character:hover{
+    background-color: #009CDA;
+    color: white;
+    font-size: larger;
+}
+
+.history{
+    display: flex;
+    flex-direction: row;
+}
+
+#game-boy{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tickets{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+#poster{
+    padding-right: 80px;
+}
+
+.trailer{
+    display: flex;
+    flex-direction: column;
+}
